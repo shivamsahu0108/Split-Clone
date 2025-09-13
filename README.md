@@ -20,11 +20,7 @@
 
 ---
 
-## 💬 What People Are Saying
 
-> "Splitr appears to be an interesting and feature-rich web application that helps users easily manage and split expenses with friends, roommates, or family. The application offers a modern and intuitive user interface, built using the latest web technologies such as Next.js, React, and Tailwind CSS."
-
----
 
 ## 📚 Table of Contents
 
