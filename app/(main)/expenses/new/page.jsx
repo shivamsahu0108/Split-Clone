@@ -10,16 +10,16 @@ const newExpensePage = () => {
   const router = useRouter();
   return (
     <div className="container max-w-3xl mx-auto py-6">
-      <div className="mb-6">
-        <h1 className="text-5xl gradient-title">Add a new expense</h1>
-        <p className="text-muted-foreground mt-1">
+      <div class="mb-6">
+        <h1 class="text-3xl md:text-5xl gradient-title">Add a new expense</h1>
+        <p class="text-muted-foreground mt-1">
           Record a new expense to split with others
         </p>
       </div>
       <Card>
         <CardContent>
-          <Tabs defaultValue="individual" className="pb-3">
-            <TabsList className="grid w-full grid-cols-2">
+          <Tabs defaultValue="individual" class="pb-3">
+            <TabsList class="grid w-full grid-cols-1 sm:grid-cols-2">
               <TabsTrigger value="individual">Individual Expenses</TabsTrigger>
               <TabsTrigger value="group">Group Expenses</TabsTrigger>
             </TabsList>

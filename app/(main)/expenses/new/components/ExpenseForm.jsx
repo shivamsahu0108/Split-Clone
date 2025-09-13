@@ -275,7 +275,7 @@ const ExpenseForm = ({ type, onSuccess }) => {
             defaultValue="equal"
             onValueChange={(value) => setValue("splitType", value)}
           >
-            <TabsList className="grid w-full grid-cols-3">
+            <TabsList class="grid w-full grid-cols-1 sm:grid-cols-3">
               <TabsTrigger value="equal">Equal</TabsTrigger>
               <TabsTrigger value="percentage">Percentage</TabsTrigger>
               <TabsTrigger value="exact">Exact Amounts</TabsTrigger>

@@ -50,10 +50,10 @@ const ExpenseSummary = ({ monthlySpending, totalSpent }) => {
         <CardTitle>Expense Summary</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="bg-muted rounded-lg p-4">
             <p className="text-sm text-muted-foreground">Total this month</p>
-            <h3 className="text-2xl font-bold mt-1">
+            <h3 className="text-xl sm:text-2xl font-bold mt-1">
               ${monthlySpending?.[currentMonth]?.total.toFixed(2) || "0.00"}{" "}
             </h3>
           </div>
@@ -61,7 +61,7 @@ const ExpenseSummary = ({ monthlySpending, totalSpent }) => {
             <p className="text-sm text-muted-foreground">
               Total this year
             </p>
-            <h3 className="text-2xl font-bold mt-1">
+            <h3 className="text-xl sm:text-2xl font-bold mt-1">
               ${totalSpent?.toFixed(2) || "0.00"}
             </h3>
           </div>

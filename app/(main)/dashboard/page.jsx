@@ -31,18 +31,18 @@ const Dashboardpage = () => {
     totalSpentLoading ||
     monthlySpendingLoading;
   return (
-    <div className="container mx-auto py-6 space-y-6">
+    <div class="container mx-auto py-4 sm:py-6 space-y-4 sm:space-y-6">
       {isLoading ? (
         <div>
           <BarLoader width={"100%"} color="#36d7b7" />
         </div>
       ) : (
         <>
-          <div className="flex items-center justify-between">
-            <h1 className="text-5xl gradient-title">DashBoard</h1>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <h1 className="text-3xl md:text-5xl gradient-title">DashBoard</h1>
             <Button asChild>
               <Link href="/expenses/new">
-                <PlusCircle className="mr-2 h-4 w-4" />
+                <PlusCircle class="mr-2 h-4 w-4" />
                 Add Expenses
               </Link>
             </Button>

@@ -143,7 +143,7 @@ const SplitSelector = ({
     <div className="space-y-4 mt-4">
       {splits.map((split) => (
         <div
-          className="flex items-center justify-between gap-4"
+          class="flex flex-col sm:flex-row items-center justify-between gap-4"
           key={split.userId}
         >
           <div className="flex items-center gap-2 min-w[120px]">
@@ -184,7 +184,7 @@ const SplitSelector = ({
                       parseFloat(e.target.value) || 0
                     )
                   }
-                  className={"w-16 h-8"}
+                  class={"w-full max-w-[100px] h-8"}
                 />
                 <span className="text-sm text-muted-foreground">%</span>
                 <span className="text-sm ml-1">${split.amount.toFixed(2)}</span>
@@ -200,7 +200,7 @@ const SplitSelector = ({
                   type={"number"}
                   min="0"
                   max={amount * 2} // Allow values even higher than total for flexibility
-                  className={"w-24 h-8"}
+                  class={"w-full max-w-[120px] h-8"}
                   value={split.amount.toFixed(2)}
                   step="0.01"
                   onChange={(e) =>

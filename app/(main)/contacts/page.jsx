@@ -38,10 +38,10 @@ const ConatctsPage = () => {
 
   return (
     <div className="container mx-auto py-6">
-      <div className="flex items-center justify-between mb-6">
-        <h1 className="text-5xl gradient-title">Contacts</h1>
+      <div class="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
+        <h1 class="text-3xl md:text-5xl gradient-title">Contacts</h1>
         <Button onClick={() => setIsCreateGroupModalOpen(true)}>
-          <Plus className="mr-2 h-4 w-4" />
+          <Plus class="mr-2 h-4 w-4" />
           Create Group
         </Button>
       </div>
