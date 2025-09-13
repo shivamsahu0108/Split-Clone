@@ -55,7 +55,7 @@
 
 ## 📸 Screenshots
 
-![alt text](https://splitpsi.vercel.app/)
+![alt text](ss.png)
 
 ## 🛠️ Tech Stack
 
