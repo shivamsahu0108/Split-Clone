@@ -1,34 +1,43 @@
+<div align="center">
+  <img src="public/logos/logo.png" alt="Splitr Logo" width="200"/>
+</div>
+
 # 🧾 Splitr
 
 **Splitr** is a modern web application that helps you easily split expenses with friends, roommates, or family. Whether you're sharing dinner bills, travel costs, or household expenses, Splitr makes tracking and settling expenses effortless and transparent. 🤝
 
 ---
 
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/your-username/splitr?style=social)
+![GitHub forks](https://img.shields.io/github/forks/your-username/splitr?style=social)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Made with Next.js](https://img.shields.io/badge/next.js-13+-black?logo=next.js)
-![Tailwind CSS](https://img.shields.io/badge/styling-tailwindcss-blue?logo=tailwindcss)
+
+</div>
+
+---
+
+## 💬 What People Are Saying
+
+> "Splitr appears to be an interesting and feature-rich web application that helps users easily manage and split expenses with friends, roommates, or family. The application offers a modern and intuitive user interface, built using the latest web technologies such as Next.js, React, and Tailwind CSS."
 
 ---
 
 ## 📚 Table of Contents
 
 - [🚀 Features](#-features)
+- [📸 Screenshots](#-screenshots)
 - [🛠️ Tech Stack](#-tech-stack)
 - [📁 Folder Structure](#-folder-structure)
-- [🔧 Environment Variables](#-environment-variables)
-- [🔐 Authentication Flow](#-authentication-flow)
-- [📬 Email Notifications](#-email-notifications)
-- [🎨 Design Philosophy](#-design-philosophy)
 - [🏁 Getting Started](#-getting-started)
-- [🎈 Usage](#-usage)
-- [📡 API / Convex Backend Overview](#-api--convex-backend-overview)
-- [📸 Screenshots](#-screenshots)
-- [🧪 Testing (optional)](#-testing-optional)
 - [🙌 Contributing](#-contributing)
+- [🗺️ Roadmap](#-roadmap)
 - [📄 License](#-license)
 - [❓ FAQ](#-faq)
-- [🗺️ Roadmap / TODO](#-roadmap--todo)
+
 
 ---
 
@@ -43,6 +52,10 @@
 - ⚙️ **Realtime Backend** – Powered by Convex for live data updates.
 
 ---
+
+## 📸 Screenshots
+
+![alt text](image.png)
 
 ## 🛠️ Tech Stack
 
@@ -76,3 +89,61 @@ splitr/
 ├── 🎨 styles/               # Global styles
 ├── 🤫 .env.local            # Environment variables (not committed)
 └── 📄 README.md             # Project documentation
+```
+
+---
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/splitr.git
+   cd splitr
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   - Create a `.env.local` file in the root of the project.
+   - Add the necessary environment variables (see `.env.example` for a template).
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 🗺️ Roadmap
+
+See the [open issues](https://github.com/your-username/splitr/issues) for a list of proposed features (and known issues).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## ❓ FAQ
+
+- **Is this project free to use?**
+  - Yes, it is open source and free to use.
